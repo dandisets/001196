@@ -20,7 +20,7 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: two-photon microscopy technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 972814430652
+  numberOfBytes: 973020100992
   numberOfFiles: 11
   numberOfSubjects: 1
   schemaKey: AssetsSummary
@@ -30,9 +30,9 @@ assetsSummary:
     schemaKey: SpeciesType
   variableMeasured:
   - ProcessingModule
+  - OpticalChannel
   - PlaneSegmentation
   - ImagingPlane
-  - OpticalChannel
   - TwoPhotonSeries
 citation: OpenScopeMouseMotion (2024). (Version draft) [Data set]. DANDI archive.
   https://dandiarchive.org/dandiset/001196/draft
