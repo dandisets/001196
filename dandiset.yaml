@@ -57,6 +57,7 @@ contributor:
   includeInCitation: true
   name: Peene, R. Carter
   roleName:
+  - dcite:Author
   - dcite:DataCurator
   - dcite:Software
   - dcite:Validation
@@ -70,6 +71,7 @@ contributor:
   includeInCitation: true
   name: Caldejon, Shiella
   roleName:
+  - dcite:Author
   - dcite:Supervision
   - dcite:Validation
   schemaKey: Person
@@ -82,6 +84,7 @@ contributor:
   includeInCitation: true
   name: Groblewski, Peter
   roleName:
+  - dcite:Author
   - dcite:ProjectAdministration
   - dcite:Supervision
   schemaKey: Person
@@ -94,6 +97,7 @@ contributor:
   includeInCitation: true
   name: Williford, Allison
   roleName:
+  - dcite:Author
   - dcite:Supervision
   schemaKey: Person
 - affiliation:
@@ -105,6 +109,7 @@ contributor:
   includeInCitation: true
   name: Ouellette, Ben
   roleName:
+  - dcite:Author
   - dcite:Investigation
   schemaKey: Person
 - affiliation:
@@ -116,6 +121,7 @@ contributor:
   includeInCitation: true
   name: Wilkes, Josh
   roleName:
+  - dcite:Author
   - dcite:Investigation
   schemaKey: Person
 - affiliation:
@@ -127,6 +133,7 @@ contributor:
   includeInCitation: true
   name: Weber, Julie
   roleName:
+  - dcite:Author
   - dcite:Investigation
   schemaKey: Person
 - affiliation:
@@ -138,6 +145,7 @@ contributor:
   includeInCitation: true
   name: Naidoo, Robyn
   roleName:
+  - dcite:Author
   - dcite:Investigation
   schemaKey: Person
 - affiliation:
@@ -149,6 +157,7 @@ contributor:
   includeInCitation: true
   name: Johnson, Tye
   roleName:
+  - dcite:Author
   - dcite:Investigation
   schemaKey: Person
 - affiliation:
@@ -160,6 +169,7 @@ contributor:
   includeInCitation: true
   name: Amaya, Avalon
   roleName:
+  - dcite:Author
   - dcite:Investigation
   schemaKey: Person
 - affiliation:
@@ -171,6 +181,7 @@ contributor:
   includeInCitation: true
   name: Kenney, Jaimie
   roleName:
+  - dcite:Author
   - dcite:Investigation
   schemaKey: Person
 - affiliation:
@@ -182,6 +193,7 @@ contributor:
   includeInCitation: true
   name: Nguyen, Katrina
   roleName:
+  - dcite:Author
   - dcite:Investigation
   schemaKey: Person
 - affiliation:
@@ -193,6 +205,7 @@ contributor:
   includeInCitation: true
   name: Suarez, Lucas
   roleName:
+  - dcite:Author
   - dcite:Investigation
   schemaKey: Person
 - affiliation:
@@ -204,6 +217,7 @@ contributor:
   includeInCitation: true
   name: Tom, Madeline
   roleName:
+  - dcite:Author
   - dcite:Investigation
   schemaKey: Person
 - affiliation:
@@ -215,6 +229,7 @@ contributor:
   includeInCitation: true
   name: Stearns, Alex
   roleName:
+  - dcite:Author
   - dcite:Investigation
   - dcite:Resources
   schemaKey: Person
@@ -226,12 +241,14 @@ contributor:
   includeInCitation: true
   name: Swapp, Jackie
   roleName:
+  - dcite:Author
   - dcite:Supervision
   schemaKey: Person
 - affiliation:
   - identifier: https://ror.org/04szwah67
     name: Allen Institute for Neural Dynamics
     schemaKey: Affiliation
+  email: jeromel@alleninstitute.org
   identifier: 0000-0002-0131-0938
   includeInCitation: true
   name: Lecoq, Jérôme A.
@@ -244,6 +261,7 @@ contributor:
   - dcite:Supervision
   - dcite:Validation
   - dcite:Visualization
+  - dcite:ContactPerson
   schemaKey: Person
 - affiliation:
   - identifier: https://ror.org/04szwah67
@@ -254,16 +272,23 @@ contributor:
   includeInCitation: true
   name: Bawany, Ahad
   roleName:
+  - dcite:Author
   - dcite:DataCurator
   - dcite:Software
   - dcite:Validation
   schemaKey: Person
-- email: jveit@uni-bremen.de
+- affiliation:
+  - identifier: https://ror.org/04ers2y35
+    name: University of Bremen
+    schemaKey: Affiliation
+  email: jveit@uni-bremen.de
   identifier: 0000-0002-6418-1846
   includeInCitation: true
   name: Veit, Julia
   roleName:
+  - dcite:Author
   - dcite:Conceptualization
+  - dcite:ContactPerson
   - dcite:FormalAnalysis
   - dcite:Supervision
   - dcite:Validation
@@ -277,6 +302,7 @@ contributor:
   includeInCitation: true
   name: Sprekeler, Henning
   roleName:
+  - dcite:Author
   - dcite:Conceptualization
   - dcite:FormalAnalysis
   - dcite:Supervision
@@ -290,6 +316,7 @@ contributor:
   includeInCitation: true
   name: Ahmed, Saif
   roleName:
+  - dcite:Author
   - dcite:FormalAnalysis
   - dcite:Investigation
   - dcite:Validation
@@ -299,6 +326,7 @@ contributor:
   includeInCitation: true
   name: Pereira Da Silva, Sofia
   roleName:
+  - dcite:Author
   - dcite:FormalAnalysis
   - dcite:Investigation
   - dcite:Validation
@@ -313,6 +341,7 @@ contributor:
   includeInCitation: true
   name: Oran, Yael
   roleName:
+  - dcite:Author
   - dcite:Conceptualization
   - dcite:FormalAnalysis
   - dcite:Investigation
@@ -322,51 +351,45 @@ contributor:
 - includeInCitation: true
   name: Park, Jimin
   roleName:
+  - dcite:Author
   - dcite:DataCurator
   - dcite:Investigation
   - dcite:Validation
   schemaKey: Person
 dateCreated: '2024-09-23T17:18:35.720870+00:00'
-description: "OpenScope's Vismo Dataset  It is essential for animals to detect the
-  presence of predators or prey, even while they move themselves. Relative motion
-  between a visual figure (e.g., predator or prey) and the background is  therefore
-  a highly relevant stimulus in the visual domain. Motion processing has been studied
-  extensively in non-human primates and humans, typically using random dot stimuli.
-  Much less is known about the neural basis of cortical motion processing in mice
-  and about figure-ground interactions in particular, although they offer much better
-  access to studies of the underlying cortical circuits.   For grating stimuli, recent
-  studies in mice have highlighted the role of interneurons in shaping center-surround
-  interactions in the primary visual cortex (V1). Somatostatin cells (SSTs) mediate
-  suppressive surrounds of pyramidal cells (PCs), with this suppression being reduced
-  or abolished by changes in the orientation of the surround relative to the center.
-  VIP interneurons (VIPs), targeting SSTs, play a role in this modulation. The balance
-  between SSTs and VIPs determines whether the surround has a suppressive or reinforcing
-  effect in V1. Whether a similar circuit also mediates center-surround computations
-  in other stimulus dimensions, such as visual motion, or in other brain regions remains
-  unclear.   In primates, higher visual areas (MT and MST) exhibit selectivity for
-  motion direction, motion coherence, and strong center-surround interactions. Interestingly,
-  reinforcing and suppressive surrounds are clustered into wide-field and local motion
-  columns, respectively, in primate MT.  In mice, comparatively little is known about
-  motion processing. V1 is necessary to discriminate different motion directions,
-  but specific higher visual areas are particularly informative about visual motion
-  and sensitive to coherent motion stimuli, pointing at reinforcing surrounds (integration),
-  whereas V1 is often suppressed by these spatially extensive displays.   For this
-  OpenScope experiments, we aimed to characterize the tuning of six different visual
-  cortical regions (VISp, VISl, VISal, VISrl, VISam, and VISpm) and 4 different cell
-  types (PCs, PV, SST, and VIP) to random-dot kinematograms (RDKs) of different directions,
-  different coherence levels, and different offsets between local/center and global/surround
-  motion. We developed a stimulus to explore motion processing using RDKs for isolating
-  motion selectivity without confounds through orientation selectivity.  The main
-  stimulus set consisted of white RDKs on a black background with a fixed density,
-  size, speed, and infinite lifetime of dots. A central area of ~25° is defined as
-  the \"center\" and the rest of the screen is the “surround”. The stimulus set includes
-  variations of 8 center directions, 4 surround directions, their relative offset
-  angle, and RDK-coherence level. The display is on for 1. s with an intertrial interval
-  of 0.5 s. This stimulus set is repeated in random order for trial-averaging.   We
-  also include receptive field mapping with 20° Gabors to be able to determine units
-  with receptive fields in the center region, as well as a set of drifting gratings
-  at 8 directions for comparison. We also include a period of a blank, isoluminant
-  gray screen for determining spontaneous activity levels. "
+description: "It is essential for animals to detect the presence of predators or prey,
+  even while they move themselves. Relative motion between a visual figure (e.g.,
+  predator or prey) and the background is therefore a highly relevant stimulus in
+  the visual domain. Much less is known about the neural basis of cortical motion
+  processing in mice and about figure-ground interactions in particular, although
+  they offer much better access to studies of the underlying cortical circuits.\n\n
+  For grating stimuli, recent studies in mice have highlighted the role of interneurons
+  in shaping center-surround interactions in the primary visual cortex (V1). Somatostatin
+  cells (SSTs) mediate suppressive surrounds of pyramidal cells (PCs), with this suppression
+  being reduced or abolished by changes in the orientation of the surround relative
+  to the center. VIP interneurons (VIPs), targeting SSTs, play a role in this modulation.
+  The balance between SSTs and VIPs determines whether the surround has a suppressive
+  or reinforcing effect in V1.\n\nIn primates, higher visual areas (MT and MST) exhibit
+  selectivity for motion direction, motion coherence, and strong center-surround interactions.
+  V1 is necessary to discriminate different motion directions, but specific higher
+  visual areas are particularly informative about visual motion and sensitive to coherent
+  motion stimuli, pointing at reinforcing surrounds (integration), whereas V1 is often
+  suppressed by these spatially extensive displays.\n\nThis dataset characterizes
+  the tuning of six different visual cortical regions (VISp, VISl, VISal, VISrl, VISam,
+  and VISpm) and four different cell types (PCs, PV, SST, and VIP) to random-dot kinematograms
+  (RDKs) of different directions, different coherence levels, and different offsets
+  between local/center and global/surround motion. A stimulus was developed to explore
+  motion processing using RDKs for isolating motion selectivity without confounds
+  through orientation selectivity. The main stimulus set consisted of white RDKs on
+  a black background with a fixed density, size, speed, and infinite lifetime of dots.
+  A central area of ~25° is defined as the \"center\" and the rest of the screen is
+  the \"surround\". The stimulus set includes variations of 8 center directions, 4
+  surround directions, their relative offset angle, and RDK-coherence level. The display
+  is on for 1 s with an intertrial interval of 0.5 s.\n\nThe dataset also includes
+  receptive field mapping with 20° Gabors to be able to determine units with receptive
+  fields in the center region, as well as a set of drifting gratings at 8 directions
+  for comparison. A period of a blank, isoluminant gray screen is also included for
+  determining spontaneous activity levels."
 ethicsApproval: []
 id: DANDI:001196/draft
 identifier: DANDI:001196
