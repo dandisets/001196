@@ -46,10 +46,51 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2024-09-23T17:18:35.720870+00:00'
-description: OpenScope
+description: "OpenScope's Vismo Dataset  It is essential for animals to detect the
+  presence of predators or prey, even while they move themselves. Relative motion
+  between a visual figure (e.g., predator or prey) and the background is  therefore
+  a highly relevant stimulus in the visual domain. Motion processing has been studied
+  extensively in non-human primates and humans, typically using random dot stimuli.
+  Much less is known about the neural basis of cortical motion processing in mice
+  and about figure-ground interactions in particular, although they offer much better
+  access to studies of the underlying cortical circuits.   For grating stimuli, recent
+  studies in mice have highlighted the role of interneurons in shaping center-surround
+  interactions in the primary visual cortex (V1). Somatostatin cells (SSTs) mediate
+  suppressive surrounds of pyramidal cells (PCs), with this suppression being reduced
+  or abolished by changes in the orientation of the surround relative to the center.
+  VIP interneurons (VIPs), targeting SSTs, play a role in this modulation. The balance
+  between SSTs and VIPs determines whether the surround has a suppressive or reinforcing
+  effect in V1. Whether a similar circuit also mediates center-surround computations
+  in other stimulus dimensions, such as visual motion, or in other brain regions remains
+  unclear.   In primates, higher visual areas (MT and MST) exhibit selectivity for
+  motion direction, motion coherence, and strong center-surround interactions. Interestingly,
+  reinforcing and suppressive surrounds are clustered into wide-field and local motion
+  columns, respectively, in primate MT.  In mice, comparatively little is known about
+  motion processing. V1 is necessary to discriminate different motion directions,
+  but specific higher visual areas are particularly informative about visual motion
+  and sensitive to coherent motion stimuli, pointing at reinforcing surrounds (integration),
+  whereas V1 is often suppressed by these spatially extensive displays.   For this
+  OpenScope experiments, we aimed to characterize the tuning of six different visual
+  cortical regions (VISp, VISl, VISal, VISrl, VISam, and VISpm) and 4 different cell
+  types (PCs, PV, SST, and VIP) to random-dot kinematograms (RDKs) of different directions,
+  different coherence levels, and different offsets between local/center and global/surround
+  motion. We developed a stimulus to explore motion processing using RDKs for isolating
+  motion selectivity without confounds through orientation selectivity.  The main
+  stimulus set consisted of white RDKs on a black background with a fixed density,
+  size, speed, and infinite lifetime of dots. A central area of ~25° is defined as
+  the \"center\" and the rest of the screen is the “surround”. The stimulus set includes
+  variations of 8 center directions, 4 surround directions, their relative offset
+  angle, and RDK-coherence level. The display is on for 1. s with an intertrial interval
+  of 0.5 s. This stimulus set is repeated in random order for trial-averaging.   We
+  also include receptive field mapping with 20° Gabors to be able to determine units
+  with receptive fields in the center region, as well as a set of drifting gratings
+  at 8 directions for comparison. We also include a period of a blank, isoluminant
+  gray screen for determining spontaneous activity levels. "
 ethicsApproval: []
 id: DANDI:001196/draft
 identifier: DANDI:001196
+license:
+- spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001196/versions/draft/assets/
 name: Allen Institute OpenScope - Vismo
