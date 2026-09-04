@@ -8,6 +8,8 @@ access:
 - embargoedUntil: '2028-03-10'
   schemaKey: AccessRequirements
   status: dandi:EmbargoedAccess
+acknowledgement: We thank the Allen Institute founder, Paul G. Allen, for his vision,
+  encouragement, and support.
 assetsSummary:
   approach:
   - name: microscopy approach; cell population imaging
@@ -37,11 +39,11 @@ assetsSummary:
   - PlaneSegmentation
   - ImagingPlane
   - TwoPhotonSeries
-citation: Peene, R. Carter; Caldejon, Shiella; Groblewski, Peter; Williford, Allison;
-  Ouellette, Ben; Wilkes, Josh; Weber, Julie; Naidoo, Robyn; Johnson, Tye; Amaya,
-  Avalon; Kenney, Jaimie; Nguyen, Katrina; Suarez, Lucas; Tom, Madeline; Stearns,
-  Alex; Swapp, Jackie; Lecoq, Jérôme A.; Bawany, Ahad; Veit, Julia; Sprekeler, Henning;
-  Ahmed, Saif; Pereira Da Silva, Sofia; Oran, Yael; Park, Jimin (2026) Allen Institute
+citation: Ahmed, Saif; Amaya, Avalon; Bawany, Ahad; Caldejon, Shiella; Groblewski,
+  Peter; Johnson, Tye; Kenney, Jaimie; Lecoq, Jérôme A.; Naidoo, Robyn; Nguyen, Katrina;
+  Oran, Yael; Ouellette, Ben; Park, Jimin; Peene, R. Carter; Pereira Da Silva, Sofia;
+  Sprekeler, Henning; Stearns, Alex; Suarez, Lucas; Swapp, Jackie; Tom, Madeline;
+  Veit, Julia; Weber, Julie; Wilkes, Josh; Williford, Allison (2026) Allen Institute
   OpenScope - Vismo (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001196/draft
 contributor:
 - awardNumber: 1 U24 NS 113646-01A1
@@ -50,12 +52,39 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 - affiliation:
+  - identifier: https://ror.org/03v4gjf40
+    name: Technische Universität Berlin
+    schemaKey: Affiliation
+  email: saif.ahmed@tu-berlin.de
+  includeInCitation: true
+  name: Ahmed, Saif
+  roleName:
+  - dcite:Author
+  - dcite:FormalAnalysis
+  - dcite:Investigation
+  - dcite:Validation
+  - dcite:Visualization
+  schemaKey: Person
+- affiliation:
   - identifier: https://ror.org/04szwah67
     name: Allen Institute for Neural Dynamics
     schemaKey: Affiliation
-  identifier: 0009-0000-6660-2264
+  email: amayaavalon0@gmail.com
+  identifier: 0000-0003-2274-2892
   includeInCitation: true
-  name: Peene, R. Carter
+  name: Amaya, Avalon
+  roleName:
+  - dcite:Author
+  - dcite:Investigation
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/04szwah67
+    name: Allen Institute for Neural Dynamics
+    schemaKey: Affiliation
+  email: abdulahadbawany@gmail.com
+  identifier: 0009-0002-5495-5411
+  includeInCitation: true
+  name: Bawany, Ahad
   roleName:
   - dcite:Author
   - dcite:DataCurator
@@ -92,82 +121,10 @@ contributor:
   - identifier: https://ror.org/04szwah67
     name: Allen Institute for Neural Dynamics
     schemaKey: Affiliation
-  email: aliw@alleninstitute.org
-  identifier: 0009-0000-7282-7515
-  includeInCitation: true
-  name: Williford, Allison
-  roleName:
-  - dcite:Author
-  - dcite:Supervision
-  schemaKey: Person
-- affiliation:
-  - identifier: https://ror.org/04szwah67
-    name: Allen Institute for Neural Dynamics
-    schemaKey: Affiliation
-  email: beno@alleninstitute.org
-  identifier: 0000-0003-4913-554X
-  includeInCitation: true
-  name: Ouellette, Ben
-  roleName:
-  - dcite:Author
-  - dcite:Investigation
-  schemaKey: Person
-- affiliation:
-  - identifier: https://ror.org/04szwah67
-    name: Allen Institute for Neural Dynamics
-    schemaKey: Affiliation
-  email: Josh.Wilkes@alleninstitute.org
-  identifier: 0009-0005-4858-2219
-  includeInCitation: true
-  name: Wilkes, Josh
-  roleName:
-  - dcite:Author
-  - dcite:Investigation
-  schemaKey: Person
-- affiliation:
-  - identifier: https://ror.org/04szwah67
-    name: Allen Institute for Neural Dynamics
-    schemaKey: Affiliation
-  email: Julie.Weber@alleninstitute.org
-  identifier: 0009-0002-1060-3828
-  includeInCitation: true
-  name: Weber, Julie
-  roleName:
-  - dcite:Author
-  - dcite:Investigation
-  schemaKey: Person
-- affiliation:
-  - identifier: https://ror.org/04szwah67
-    name: Allen Institute for Neural Dynamics
-    schemaKey: Affiliation
-  email: Robyn.Naidoo@alleninstitute.org
-  identifier: 0009-0004-0996-8808
-  includeInCitation: true
-  name: Naidoo, Robyn
-  roleName:
-  - dcite:Author
-  - dcite:Investigation
-  schemaKey: Person
-- affiliation:
-  - identifier: https://ror.org/04szwah67
-    name: Allen Institute for Neural Dynamics
-    schemaKey: Affiliation
   email: Tye.Johnson@alleninstitute.org
   identifier: 0009-0006-7239-7571
   includeInCitation: true
   name: Johnson, Tye
-  roleName:
-  - dcite:Author
-  - dcite:Investigation
-  schemaKey: Person
-- affiliation:
-  - identifier: https://ror.org/04szwah67
-    name: Allen Institute for Neural Dynamics
-    schemaKey: Affiliation
-  email: amayaavalon0@gmail.com
-  identifier: 0000-0003-2274-2892
-  includeInCitation: true
-  name: Amaya, Avalon
   roleName:
   - dcite:Author
   - dcite:Investigation
@@ -183,66 +140,6 @@ contributor:
   roleName:
   - dcite:Author
   - dcite:Investigation
-  schemaKey: Person
-- affiliation:
-  - identifier: https://ror.org/04szwah67
-    name: Allen Institute for Neural Dynamics
-    schemaKey: Affiliation
-  email: Katrina.Nguyen@alleninstitute.org
-  identifier: 0009-0009-8547-9703
-  includeInCitation: true
-  name: Nguyen, Katrina
-  roleName:
-  - dcite:Author
-  - dcite:Investigation
-  schemaKey: Person
-- affiliation:
-  - identifier: https://ror.org/04szwah67
-    name: Allen Institute for Neural Dynamics
-    schemaKey: Affiliation
-  email: LucMSuarez@gmail.com
-  identifier: 0009-0002-0121-3334
-  includeInCitation: true
-  name: Suarez, Lucas
-  roleName:
-  - dcite:Author
-  - dcite:Investigation
-  schemaKey: Person
-- affiliation:
-  - identifier: https://ror.org/04szwah67
-    name: Allen Institute for Neural Dynamics
-    schemaKey: Affiliation
-  email: Madeline.Tom@alleninstitute.org
-  identifier: 0009-0008-6695-230X
-  includeInCitation: true
-  name: Tom, Madeline
-  roleName:
-  - dcite:Author
-  - dcite:Investigation
-  schemaKey: Person
-- affiliation:
-  - identifier: https://ror.org/04szwah67
-    name: Allen Institute for Neural Dynamics
-    schemaKey: Affiliation
-  email: alex.stearns@alleninstitute.org
-  identifier: 0009-0001-8861-5290
-  includeInCitation: true
-  name: Stearns, Alex
-  roleName:
-  - dcite:Author
-  - dcite:Investigation
-  - dcite:Resources
-  schemaKey: Person
-- affiliation:
-  - identifier: https://ror.org/04szwah67
-    name: Allen Institute for Neural Dynamics
-    schemaKey: Affiliation
-  email: jackies@alleninstitute.org
-  includeInCitation: true
-  name: Swapp, Jackie
-  roleName:
-  - dcite:Author
-  - dcite:Supervision
   schemaKey: Person
 - affiliation:
   - identifier: https://ror.org/04szwah67
@@ -267,15 +164,147 @@ contributor:
   - identifier: https://ror.org/04szwah67
     name: Allen Institute for Neural Dynamics
     schemaKey: Affiliation
-  email: abdulahadbawany@gmail.com
-  identifier: 0009-0002-5495-5411
+  email: Robyn.Naidoo@alleninstitute.org
+  identifier: 0009-0004-0996-8808
   includeInCitation: true
-  name: Bawany, Ahad
+  name: Naidoo, Robyn
+  roleName:
+  - dcite:Author
+  - dcite:Investigation
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/04szwah67
+    name: Allen Institute for Neural Dynamics
+    schemaKey: Affiliation
+  email: Katrina.Nguyen@alleninstitute.org
+  identifier: 0009-0009-8547-9703
+  includeInCitation: true
+  name: Nguyen, Katrina
+  roleName:
+  - dcite:Author
+  - dcite:Investigation
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/04szwah67
+    name: Allen Institute for Neural Dynamics
+    schemaKey: Affiliation
+  email: yaeloran@gmail.com
+  identifier: 0000-0001-6604-6923
+  includeInCitation: true
+  name: Oran, Yael
+  roleName:
+  - dcite:Author
+  - dcite:Conceptualization
+  - dcite:FormalAnalysis
+  - dcite:Investigation
+  - dcite:Validation
+  - dcite:Visualization
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/04szwah67
+    name: Allen Institute for Neural Dynamics
+    schemaKey: Affiliation
+  email: beno@alleninstitute.org
+  identifier: 0000-0003-4913-554X
+  includeInCitation: true
+  name: Ouellette, Ben
+  roleName:
+  - dcite:Author
+  - dcite:Investigation
+  schemaKey: Person
+- includeInCitation: true
+  name: Park, Jimin
+  roleName:
+  - dcite:Author
+  - dcite:DataCurator
+  - dcite:Investigation
+  - dcite:Validation
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/04szwah67
+    name: Allen Institute for Neural Dynamics
+    schemaKey: Affiliation
+  identifier: 0009-0000-6660-2264
+  includeInCitation: true
+  name: Peene, R. Carter
   roleName:
   - dcite:Author
   - dcite:DataCurator
   - dcite:Software
   - dcite:Validation
+  schemaKey: Person
+- email: sofia.pereira-da-silva@bccn-berlin.de
+  includeInCitation: true
+  name: Pereira Da Silva, Sofia
+  roleName:
+  - dcite:Author
+  - dcite:FormalAnalysis
+  - dcite:Investigation
+  - dcite:Validation
+  - dcite:Visualization
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/03v4gjf40
+    name: Technische Universität Berlin
+    schemaKey: Affiliation
+  email: h.sprekeler@tu-berlin.de
+  identifier: 0000-0003-0690-3553
+  includeInCitation: true
+  name: Sprekeler, Henning
+  roleName:
+  - dcite:Author
+  - dcite:Conceptualization
+  - dcite:FormalAnalysis
+  - dcite:Supervision
+  - dcite:Validation
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/04szwah67
+    name: Allen Institute for Neural Dynamics
+    schemaKey: Affiliation
+  email: alex.stearns@alleninstitute.org
+  identifier: 0009-0001-8861-5290
+  includeInCitation: true
+  name: Stearns, Alex
+  roleName:
+  - dcite:Author
+  - dcite:Investigation
+  - dcite:Resources
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/04szwah67
+    name: Allen Institute for Neural Dynamics
+    schemaKey: Affiliation
+  email: LucMSuarez@gmail.com
+  identifier: 0009-0002-0121-3334
+  includeInCitation: true
+  name: Suarez, Lucas
+  roleName:
+  - dcite:Author
+  - dcite:Investigation
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/04szwah67
+    name: Allen Institute for Neural Dynamics
+    schemaKey: Affiliation
+  email: jackies@alleninstitute.org
+  includeInCitation: true
+  name: Swapp, Jackie
+  roleName:
+  - dcite:Author
+  - dcite:Supervision
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/04szwah67
+    name: Allen Institute for Neural Dynamics
+    schemaKey: Affiliation
+  email: Madeline.Tom@alleninstitute.org
+  identifier: 0009-0008-6695-230X
+  includeInCitation: true
+  name: Tom, Madeline
+  roleName:
+  - dcite:Author
+  - dcite:Investigation
   schemaKey: Person
 - affiliation:
   - identifier: https://ror.org/04ers2y35
@@ -294,67 +323,40 @@ contributor:
   - dcite:Validation
   schemaKey: Person
 - affiliation:
-  - identifier: https://ror.org/03v4gjf40
-    name: Technische Universität Berlin
+  - identifier: https://ror.org/04szwah67
+    name: Allen Institute for Neural Dynamics
     schemaKey: Affiliation
-  email: h.sprekeler@tu-berlin.de
-  identifier: 0000-0003-0690-3553
+  email: Julie.Weber@alleninstitute.org
+  identifier: 0009-0002-1060-3828
   includeInCitation: true
-  name: Sprekeler, Henning
+  name: Weber, Julie
   roleName:
   - dcite:Author
-  - dcite:Conceptualization
-  - dcite:FormalAnalysis
-  - dcite:Supervision
-  - dcite:Validation
-  schemaKey: Person
-- affiliation:
-  - identifier: https://ror.org/03v4gjf40
-    name: Technische Universität Berlin
-    schemaKey: Affiliation
-  email: saif.ahmed@tu-berlin.de
-  includeInCitation: true
-  name: Ahmed, Saif
-  roleName:
-  - dcite:Author
-  - dcite:FormalAnalysis
   - dcite:Investigation
-  - dcite:Validation
-  - dcite:Visualization
-  schemaKey: Person
-- email: sofia.pereira-da-silva@bccn-berlin.de
-  includeInCitation: true
-  name: Pereira Da Silva, Sofia
-  roleName:
-  - dcite:Author
-  - dcite:FormalAnalysis
-  - dcite:Investigation
-  - dcite:Validation
-  - dcite:Visualization
   schemaKey: Person
 - affiliation:
   - identifier: https://ror.org/04szwah67
     name: Allen Institute for Neural Dynamics
     schemaKey: Affiliation
-  email: yaeloran@gmail.com
-  identifier: 0000-0001-6604-6923
+  email: Josh.Wilkes@alleninstitute.org
+  identifier: 0009-0005-4858-2219
   includeInCitation: true
-  name: Oran, Yael
+  name: Wilkes, Josh
   roleName:
   - dcite:Author
-  - dcite:Conceptualization
-  - dcite:FormalAnalysis
   - dcite:Investigation
-  - dcite:Validation
-  - dcite:Visualization
   schemaKey: Person
-- includeInCitation: true
-  name: Park, Jimin
+- affiliation:
+  - identifier: https://ror.org/04szwah67
+    name: Allen Institute for Neural Dynamics
+    schemaKey: Affiliation
+  email: aliw@alleninstitute.org
+  identifier: 0009-0000-7282-7515
+  includeInCitation: true
+  name: Williford, Allison
   roleName:
   - dcite:Author
-  - dcite:DataCurator
-  - dcite:Investigation
-  - dcite:Validation
+  - dcite:Supervision
   schemaKey: Person
 dateCreated: '2024-09-23T17:18:35.720870+00:00'
 description: "It is essential for animals to detect the presence of predators or prey,
@@ -393,12 +395,30 @@ description: "It is essential for animals to detect the presence of predators or
 ethicsApproval: []
 id: DANDI:001196/draft
 identifier: DANDI:001196
+keywords:
+- OpenScope
+- Mesoscope
+- 2-Photon
+- Ophys
+- Optical Physiology
+- Motion
+- Mouse
+- Visual Cortex
+- VIP
+- SST
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001196/versions/draft/assets/
 name: Allen Institute OpenScope - Vismo
-relatedResource: []
+relatedResource:
+- identifier: https://alleninstitute.github.io/openscope_databook/vismo/
+  name: OpenScope's Vismo Dataset
+  relation: dcite:IsDescribedBy
+  repository: OpenScope Databook
+  resourceType: dcite:ComputationalNotebook
+  schemaKey: Resource
+  url: https://alleninstitute.github.io/openscope_databook/vismo/
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.8
