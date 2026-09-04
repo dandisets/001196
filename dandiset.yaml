@@ -5,9 +5,9 @@
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.8/context.json
 about: []
 access:
-- embargoedUntil: '2028-03-10'
+- embargoedUntil: '2026-09-04'
   schemaKey: AccessRequirements
-  status: dandi:EmbargoedAccess
+  status: dandi:OpenAccess
 acknowledgement: We thank the Allen Institute founder, Paul G. Allen, for his vision,
   encouragement, and support.
 assetsSummary:
@@ -257,6 +257,7 @@ contributor:
   - dcite:FormalAnalysis
   - dcite:Supervision
   - dcite:Validation
+  - dcite:ContactPerson
   schemaKey: Person
 - affiliation:
   - identifier: https://ror.org/04szwah67
@@ -392,7 +393,12 @@ description: "It is essential for animals to detect the presence of predators or
   fields in the center region, as well as a set of drifting gratings at 8 directions
   for comparison. A period of a blank, isoluminant gray screen is also included for
   determining spontaneous activity levels."
-ethicsApproval: []
+ethicsApproval:
+- contactPoint:
+    schemaKey: ContactPoint
+  identifier: ​Allen Institute Institutional Animal Care and Use Committee (IACUC),
+    protocol 2117
+  schemaKey: EthicsApproval
 id: DANDI:001196/draft
 identifier: DANDI:001196
 keywords:
