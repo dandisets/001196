@@ -37,14 +37,57 @@ assetsSummary:
   - PlaneSegmentation
   - ImagingPlane
   - TwoPhotonSeries
-citation: Allen Institute OpenScope - Vismo (2026). (Version draft) [Data set]. DANDI
-  Archive. https://dandiarchive.org/dandiset/001196/draft
+citation: Ahmed, Saif (2026) Allen Institute OpenScope - Vismo (Version draft) [Data
+  set]. DANDI Archive. https://dandiarchive.org/dandiset/001196/draft
 contributor:
 - awardNumber: 1 U24 NS 113646-01A1
   name: National Institutes of Health (NIH)
   roleName:
   - dcite:Funder
   schemaKey: Organization
+- affiliation:
+  - name: Technical University Berlin
+    schemaKey: Affiliation
+  email: saif.ahmed@tu-berlin.de
+  includeInCitation: true
+  name: Ahmed, Saif
+  roleName:
+  - dcite:FormalAnalysis
+  schemaKey: Person
+- affiliation:
+  - name: Allen Institute for Neural Dynamics
+    schemaKey: Affiliation
+  identifier: 0000-0003-2274-2892
+  name: Amaya, Avalon
+  roleName:
+  - dcite:Investigation
+  schemaKey: Person
+- affiliation:
+  - name: Allen Institute for Neural Dynamics
+    schemaKey: Affiliation
+  identifier: 0009-0002-5495-5411
+  name: Bawany, Ahad
+  roleName:
+  - dcite:Software
+  schemaKey: Person
+- affiliation:
+  - name: Allen Institute for Neural Dynamics
+    schemaKey: Affiliation
+  email: shiellac@alleninstitute.org
+  identifier: 0009-0002-9734-5517
+  name: Caldejon, Shiella
+  roleName:
+  - dcite:Supervision
+  schemaKey: Person
+- affiliation:
+  - name: Allen Institute for Neural Dynamics
+    schemaKey: Affiliation
+  email: peterg@alleninstitute.org
+  identifier: 0000-0002-8415-1118
+  name: Groblewski, Peter
+  roleName:
+  - dcite:Supervision
+  schemaKey: Person
 dateCreated: '2024-09-23T17:18:35.720870+00:00'
 description: "OpenScope's Vismo Dataset  It is essential for animals to detect the
   presence of predators or prey, even while they move themselves. Relative motion
