@@ -44,7 +44,7 @@ citation: Ahmed, Saif; Amaya, Avalon; Bawany, Ahad; Caldejon, Shiella; Groblewsk
   Oran, Yael; Ouellette, Ben; Park, Jimin; Peene, R. Carter; Pereira Da Silva, Sofia;
   Sprekeler, Henning; Stearns, Alex; Suarez, Lucas; Swapp, Jackie; Tom, Madeline;
   Veit, Julia; Weber, Julie; Wilkes, Josh; Williford, Allison (2026) Allen Institute
-  OpenScope - Vismo (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001196/draft
+  OpenScope - Vismo (Version 0.260916.2225) [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.001196/0.260916.2225
 contributor:
 - awardNumber: 1 U24 NS 113646-01A1
   name: National Institutes of Health (NIH)
@@ -360,6 +360,7 @@ contributor:
   - dcite:Supervision
   schemaKey: Person
 dateCreated: '2024-09-23T17:18:35.720870+00:00'
+datePublished: '2026-09-16T22:25:35.392940+00:00'
 description: "It is essential for animals to detect the presence of predators or prey,
   even while they move themselves. Relative motion between a visual figure (e.g.,
   predator or prey) and the background is therefore a highly relevant stimulus in
@@ -393,13 +394,14 @@ description: "It is essential for animals to detect the presence of predators or
   fields in the center region, as well as a set of drifting gratings at 8 directions
   for comparison. A period of a blank, isoluminant gray screen is also included for
   determining spontaneous activity levels."
+doi: 10.48324/dandi.001196/0.260916.2225
 ethicsApproval:
 - contactPoint:
     schemaKey: ContactPoint
   identifier: ​Allen Institute Institutional Animal Care and Use Committee (IACUC),
     protocol 2117
   schemaKey: EthicsApproval
-id: DANDI:001196/draft
+id: DANDI:001196/0.260916.2225
 identifier: DANDI:001196
 keywords:
 - OpenScope
@@ -415,8 +417,20 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001196/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001196/0.260916.2225/assets.yaml
 name: Allen Institute OpenScope - Vismo
+publishedBy:
+  endDate: '2026-09-16T22:25:35.392940+00:00'
+  id: urn:uuid:888f3cb9-d2cf-4d21-89ec-bfbc35b37898
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-09-16T22:25:35.392940+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:e608b8b8-77bc-475a-bc46-b8c04c4c0bcb
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: https://alleninstitute.github.io/openscope_databook/vismo/
   name: OpenScope's Vismo Dataset
@@ -428,6 +442,6 @@ relatedResource:
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.8
-url: https://dandiarchive.org/dandiset/001196/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001196/0.260916.2225
+version: 0.260916.2225
 wasGeneratedBy: []
